@@ -1,0 +1,42 @@
+/* texto centrado de pagina index */
+.textoCentrado{
+    text-align: center;
+}
+
+
+/*seccion de Brenda Magali Gonzalez*/
+.seccionBrenda{
+    width: 100%;
+    background-image: url(../assets/img/Fondo\ Brenda\ foto.jpg);
+    background-size: $secccion-brenda;
+}
+
+
+/*configuracion de la imagen de Brenda*/
+.imagenBrenda{
+    width: 100%;
+    background-size: $secccion-brenda;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    object-fit: cover;
+    border-radius: 30px;
+    box-shadow: 0 0 15px rgba(227, 109, 109, 0.648);
+}
+
+/*titulo seccion brenda*/
+.tituloBrenda{
+text-align: $textos-brenda;
+margin-top: 40px;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: rgba(0, 0, 0, 0.707);
+border-radius: 10px;
+box-shadow: 0 0 15px rgba(227, 109, 109, 0.648);
+}
+
+/*texto seccion bren*/
+.textoBrenda{
+text-align: $textos-brenda;
+margin-top: 20px;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+

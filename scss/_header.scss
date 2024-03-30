@@ -1,0 +1,40 @@
+/* color del header  */
+.colorFondoPrincipal{
+    background-color: $color-header;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+    }
+    
+    
+    /* centrado de logo*/
+    .contenedorLogo{
+        width:90vh;
+        height: 50vh;
+        margin: 0 auto;
+    }
+    
+    /* medida del logo */
+    .contenedorLogo .Logo{
+        width:100%;
+        height: 100%;
+        text-align: center;
+    }
+    
+    
+    /*configuracion de la lista de navegacion*/
+    .colorNav{
+        text-align: center;
+        background-color: $color-primario;
+        padding: 10px;
+        width: 100%;
+        height: 7vh;
+    }
+    
+    
+    .logoZ{
+        width: 100%;
+        height: 30px;
+        object-fit: cover;
+    }
+

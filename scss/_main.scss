@@ -1,0 +1,85 @@
+    /*imagen de fondo de pagina index*/
+    .imagenFondoIndex{
+        width: 100%;
+        height: $img-principal;
+        background-image: url(../assets/img/dermaplaning.jpg);
+        background-size:cover;
+    }
+    
+    /*imagen de fondo de pagina origenes*/
+    .imagenFondoOrigenes{
+        height: $img-principal;
+        background-image: url(../assets/img/dermaplaning.jpg);
+        background-repeat:no-repeat;
+        background-size:cover;
+    }
+    
+    /*imagen de fondo de pagina de tratamientos*/
+    .imagenFondoTratamientos{
+        height: $img-principal;
+        background-image: url(../assets/img/dermaplaning.jpg);
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-position: right;
+    }
+    
+    /*imagen de fondo de papgina productos*/
+    .imagenFondoProductos{
+        height: $img-principal;
+        background-image: url(../assets/img/dermaplaning.jpg);
+        background-repeat:no-repeat;
+        background-size:cover;
+    }
+    
+    /* Imagen de fondo de pagina contactos */
+    .imagendeFondoContacto{
+        height: $img-principal;
+        background-image: url(../assets/img/dermaplaning.jpg);
+        background-repeat:no-repeat;
+        background-size:cover;
+    }
+
+    
+/*secciones del main de todas las paginas*/
+.seccionMainIndex{
+    text-align: $seccionmain-texto;
+    font-size: $fontsize-seccionesmain;
+    padding: $pad-seccionesmain;
+    width: $width-seccionesmain;
+    margin: $margin-seccionesmain;
+}
+
+.seccionMainOrigenes{
+    text-align: $seccionmain-texto;
+    font-size: $fontsize-seccionesmain;
+    padding: $pad-seccionesmain;
+    width: $width-seccionesmain;
+    margin:$margin-seccionesmain;
+    margin-bottom: 20px;
+}
+
+.seccionMainTratamientos{
+    text-align: $seccionmain-texto;
+    font-size: $fontsize-seccionesmain;
+    padding: $pad-seccionesmain;
+    width: $width-seccionesmain;
+    margin:$margin-seccionesmain;
+    margin-bottom: 20px;
+}
+
+.seccionMainProductos{
+    text-align: $seccionmain-texto;
+    font-size: $fontsize-seccionesmain;
+    padding: $pad-seccionesmain;
+    width: $width-seccionesmain;
+    margin: $margin-seccionesmain;
+    margin-bottom: 20px;
+}
+
+.seccionMainContacto{
+    font-size: $fontsize-seccionesmain;
+    padding: $pad-seccionesmain;
+    width: $width-seccionesmain;
+    margin: $margin-seccionesmain;
+    margin-bottom: 20px;
+}
